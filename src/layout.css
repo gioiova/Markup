@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Epilogue";
+}
+img {
+  width: 100%;
+}
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+}
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 9999;
+  padding: 10px 0;
+}
+
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: start;
+}
+.align-end {
+  align-items: end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.list{
+  list-style: none;
+}
+.bg-gray {
+  background-color: #F3F3F3;
+  ;
+}
+
+
+
+
+.p-20 {
+  padding: 20px 20px;
+}
+
+.h-60 {
+  height: 60px  ;
+}
+
+.p-10 {
+  padding: 0 10px;
+}
+
+.border-none {
+  border: none;
+}
+.black {
+  color: black;
+}
